@@ -8,8 +8,8 @@ function FriendCard(props){
         // props.image and then when we need we call image in this function
         // for this the funciton is called handleClick to call it and the parameter is called id
         <div className = "card" 
-//            role ="img"
-//            style = {{ backgroundImage: `url("${props.image}")`}}
+           role ="img"
+            //style = {{ backgroundImage: `url("${props.image}")`}}
             onClick={()=> props.handleClick(props.id)}
         >
             <img src = {props.image}/>
